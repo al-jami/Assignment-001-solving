@@ -187,13 +187,70 @@ background-color:  #F2EDED;
 }
 
 .container-4:hover{
+    margin-top: 10px;
     background-color: white;
 }
 
 .container-4 img{
-    padding-top: 25px;
+    margin-top: 20px;
     border-radius: 10px;
 }
+
+
+.container-5{
+
+    max-width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.container-5:hover{
+    background-color: whitesmoke;
+}
+
+.container-5 h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.container-5 input[type="text"], input[type="email"]{
+    background-color: white;
+    border-radius: 5px;
+     height: 30px;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.container-5 textarea{
+     background-color: white;
+    border-radius: 5px;
+     height: 100px;
+    width: 400px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.container-5 button{
+    width: 440px;
+}
+
+
+
+
 /* shared css */
 
 .head-color{
